@@ -1,0 +1,23 @@
+{
+  "name": "devpmp-pmro/create_pdf",
+  "description": "crie pdf a partir do Dompdf",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leonardo Magalhães",
+      "email": "devphp.pmro@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "require": {
+    "dompdf/dompdf": "v0.8.6"
+  }
+}
